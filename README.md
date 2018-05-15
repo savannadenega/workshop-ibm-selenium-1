@@ -19,7 +19,7 @@ A ordem dos testes automatizados é realizada de acordo com a imagem abaixo:
 - Selenium Server [Download](https://www.seleniumhq.org/download/)
 - Selenium Java [Download](https://www.seleniumhq.org/download/)
 - Selenium Chrome Driver [Download](https://sites.google.com/a/chromium.org/chromedriver/downloads)
-- Junit [Download]()
+- Junit [Download](https://junit.org/junit4/)
 - Eclipse IDE [Download](http://www.eclipse.org/downloads/)
 
 ### Como configurar o ambiente:
