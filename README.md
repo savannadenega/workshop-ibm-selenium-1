@@ -16,7 +16,6 @@ A ordem dos testes automatizados é realizada de acordo com a imagem abaixo:
 
 ### Recursos utilizados:
 
-- Selenium Server [Download](https://www.seleniumhq.org/download/)
 - Selenium Java [Download](https://www.seleniumhq.org/download/)
 - Selenium Chrome Driver [Download](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 - Junit [Download](https://junit.org/junit4/)

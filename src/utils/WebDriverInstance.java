@@ -28,4 +28,12 @@ public class WebDriverInstance {
 //		driver.quit();
 //	}
 	
+	public static void sleep(int time){
+		try {
+			Thread.sleep(time);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+	
 }

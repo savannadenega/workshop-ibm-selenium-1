@@ -15,13 +15,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-// Classe JUnit que contém os métodos de teste.
 public class Chapter1TestCase2 {
 
 	// Declarando um objeto do tipo WebDriver, utilizado pelo Selenium
 	// WebDriver.
-	// private static WebDriver driver;
-
 	private static WebDriver driver;
 
 	// Método que inicia tudo que for necessário para o teste
@@ -40,13 +37,13 @@ public class Chapter1TestCase2 {
 
 	// Clicar no radio button
 	@Test
-	public void ClicaRadioButtonEsquerda() throws InterruptedException {
+	public void clicaRadioButtonEsquerda() throws InterruptedException {
 		Thread.sleep(10000);
 		driver.findElement(By.id("radiobutton")).click();
 	}
 
 	@Test
-	public void ComboBoxEsquerda() throws InterruptedException {
+	public void comboBoxEsquerda() throws InterruptedException {
 		Thread.sleep(10000);
 		driver.findElement(By.id("selecttype")).click();
 		driver.findElement(By.id("selecttype")).sendKeys("exemplo");

@@ -15,7 +15,6 @@
 	<classpathentry kind="lib" path="lib/httpcore-4.4.6.jar"/>
 	<classpathentry kind="lib" path="lib/okhttp-3.9.1.jar"/>
 	<classpathentry kind="lib" path="lib/okio-1.13.0.jar"/>
-	<classpathentry kind="lib" path="lib/selenium-server-standalone-3.12.0.jar"/>
 	<classpathentry kind="lib" path="lib/junit-4.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
