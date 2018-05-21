@@ -10,8 +10,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-public class Chapter1TestCase2 {
+/**
+ * 
+ * Esta classe não contém as dependências da classe utils, esta apenas tem o ojetivo de mostrar 
+ * como a estrutura geral do uso do Selenium funciona.
+ *
+ */
+public class Chapter1TestCase_WholeTestClass {
 	
 	// Declarando um objeto do tipo WebDriver, utilizado pelo Selenium
 	// WebDriver.
@@ -31,10 +36,8 @@ public class Chapter1TestCase2 {
 		driver.manage().window().maximize();
 	}
 
-	// Clicar no radio button
-	
 	@Test
-	public void clicaRadioButtonEsquerda() throws InterruptedException {
+	public void clickRadioButtonEsquerda() throws InterruptedException {
 		Thread.sleep(10000);
 		driver.findElement(By.id("radiobutton")).click();
 	}
