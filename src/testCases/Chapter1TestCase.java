@@ -19,15 +19,15 @@ public class Chapter1TestCase extends WebDriverInstance {
 
 	// 1
 	@Test
-	public void clickRadioButtonEsquerda() throws InterruptedException {
-		Thread.sleep(2000);
+	public void clickRadioButtonEsquerda(){
+		sleep(2000);
 		chapter1Objs.radioButtonEsquerda(driver).click();
 	}
 
 	// 2
 	@Test
-	public void clickComboBoxEsquerda() throws InterruptedException {
-		Thread.sleep(2000);
+	public void clickComboBoxEsquerda(){
+		sleep(2000);
 		chapter1Objs.comboBoxEsquerda(driver).click();
 		chapter1Objs.comboBoxEsquerda(driver).sendKeys("Selenium Grid");
 		chapter1Objs.comboBoxEsquerda(driver).sendKeys(Keys.RETURN);
@@ -38,15 +38,15 @@ public class Chapter1TestCase extends WebDriverInstance {
 	
 	// 6
 	@Test
-	public void clickButtonLoadRedBox() throws InterruptedException {
-		Thread.sleep(2000);
+	public void clickButtonLoadRedBox() {
+		sleep(2000);
 		chapter1Objs.buttonLoadRedBox(driver).click();
 	}
 
 	// 7
 	@Test
-	public void verifyTextRedBox() throws InterruptedException {
-		Thread.sleep(2000);
+	public void verifyTextRedBox() {
+		sleep(2000);
 		String text = chapter1Objs.textRedBox(driver).getText();
 		Assert.assertFalse(text.isEmpty());
 	}
