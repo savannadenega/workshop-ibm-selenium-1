@@ -15,17 +15,23 @@ import java.io.File;
  * @author SavannaDenega
  * 
  * Classe para criar o WebDriver, que manipula o navegador.
- * O navegador a ser manipulado é especificado, pois cada tipo utiliza um 
- * driver diferente na execução.
+ * O navegador a ser manipulado ï¿½ especificado, pois cada tipo utiliza um 
+ * driver diferente na execuï¿½ï¿½o.
  *
  */
 public class WebDriverFactoryInstance {
 
 	private static final WebDriverFactoryInstance INSTANCE = new WebDriverFactoryInstance();
 
+    // Windows - Pasta do software
 	//final String chromeBinary = "C:/Program Files (x86)/Google/Chrome/Application/chromedriver.exe";
-	final String chromeDriverFilePath = System.getProperty("user.dir") + "/browserDrivers/chromedriver.exe";
-	
+
+    // Windows - Pasta do projeto
+//    final String chromeDriverFilePath = System.getProperty("user.dir") + "/browserDrivers/chromedriver.exe";
+
+    // Mac
+    final String chromeDriverFilePath = System.getProperty("user.dir") + "/browserDrivers/chromedriver";
+
 	//final String ieDriverServerFilePath = "C:/Java/drivers/IEDriverServer.exe";
 	//final String firefoxGeckodriverFilePath = "C:/Program Files (x86)/Mozilla Firefox/geckodriver.exe";
 
@@ -48,7 +54,7 @@ public class WebDriverFactoryInstance {
 		return driver;
 	}
 	
-	//TODO ver sobre os outros navegadores
+	//TODO Outros navegadores
 
 //	private WebDriver firefoxFactoryDriver() {
 //		System.setProperty("webdriver.gecko.driver", geckodriver);
